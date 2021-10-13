@@ -484,6 +484,7 @@ header.navs.active{
 .nav-bar .logo .logo-nav img.one{
     width: 100px;
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 .nav-bar .logo .logo-nav img.two{
     width: 65px;
