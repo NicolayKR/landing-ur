@@ -330,6 +330,28 @@
     // :: Add Dark Mode
     $('.dark-mode-decision').on('click', function () {
         $('body').toggleClass('active-dark-mode-decision');
+        if($('body').hasClass('active-dark-mode-decision')){
+            var theme = $('#white-theme');
+            var innerMenu = $('#inner-menu-right');
+            var followUs = $('.follow-us').find('h4');
+            var contactInfo = $('.contact-info').find('h4');
+            theme.attr('src', '/dist/assets/images/logo/RUSOPTIM_-logo-white.png');
+            contactInfo.css('color', 'white');
+            followUs.css('color', 'white');
+            innerMenu.css('background-color', '#262B3E');
+            innerMenu.css('color', 'white');
+        }
+        else{
+            var theme = $('#white-theme');
+            var innerMenu = $('#inner-menu-right');
+            var followUs = $('.follow-us').find('h4');
+            var contactInfo = $('.contact-info').find('h4');
+            theme.attr('src', '/dist/assets/images/logo/RUSOPTIM_-logo_blu.png');
+            contactInfo.css('color', 'black');
+            followUs.css('color', 'black');
+            innerMenu.css('background-color', 'white');
+            innerMenu.css('color', 'black');
+        }
     });
 
 }());
