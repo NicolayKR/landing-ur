@@ -3605,3 +3605,8 @@ body.active-dark-mode-decision,
         height: 620px;
     }
 }
+@media(max-width: 992px){
+    .owl-item{
+        margin-right: 0px;
+    }
+}
