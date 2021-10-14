@@ -3444,7 +3444,7 @@ body.active-dark-mode-decision,
 /*    position: absolute;*/
 /*}*/
 .practice-area-item{
-    min-height: 270px;
+    min-height: 315px;
     max-width: 350px;
 }
 .practice-area-item p{
@@ -3615,6 +3615,10 @@ body.active-dark-mode-decision,
 @media(max-width: 992px){
     .owl-item{
         margin-right: 0px;
+    }
+    body {
+        /*font-size: 14px;*/
+        color: #555555;
     }
 }
 #fixed-navbar .info{
