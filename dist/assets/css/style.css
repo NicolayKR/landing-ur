@@ -979,9 +979,11 @@ header.navs.active{
 .header-owl.owl-theme .owl-nav [class*=owl-] i.flaticon-right-arrow{
     right: 10px;
 }
-.header-owl.owl-theme:hover .owl-nav [class*=owl-] i{
-    opacity: 1;
-    visibility: visible;
+@media(min-width: 992px){
+    .header-owl.owl-theme:hover .owl-nav [class*=owl-] i{
+        opacity: 1;
+        visibility: visible;
+    }
 }
 .header-owl.owl-theme .owl-dots{
     margin: 0;
@@ -1017,7 +1019,8 @@ header.navs.active{
 /* :: Header 2 */
 .header-2 .box-hero{
     position: relative;
-    z-index: 1
+    z-index: 1;
+    padding-top: 50px;
 }
 .header-2 .box-hero .banner,
 .header-2 .box-hero .services-header{
@@ -3602,4 +3605,3 @@ body.active-dark-mode-decision,
         height: 620px;
     }
 }
-
