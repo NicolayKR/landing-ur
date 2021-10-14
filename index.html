@@ -785,8 +785,8 @@
                     });
             myMap.geoObjects
                     .add(myPlacemarkWithContent);
-            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-                //... отключаем перетаскивание карты
+                    const screenWidth = window.screen.width
+            if (screenWidth < 520){
                 myMap.behaviors.disable('drag');
             }
             initYandexMap = true;
