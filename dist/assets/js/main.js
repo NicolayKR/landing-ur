@@ -17,8 +17,8 @@
     });
 
     // :: Height Header Section
-    $('.header, .header .table-cell').height($(window).height() + $('header.navs').height() + 100);
-    $('.header-2, .header-2 .table-cell').height($(window).height() + $('header.navs').height() + 40);
+    // $('.header, .header .table-cell').height($(window).height() + $('header.navs').height() + 100);
+    // $('.header-2, .header-2 .table-cell').height($(window).height() + $('header.navs').height() + 40);
 
     // :: Add Class Active For ('.nav-bar')
     $(window).on('scroll', function () {
