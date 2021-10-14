@@ -5,17 +5,17 @@
 :: Author URI: https://themeforest.net/user/ar-coder
 :: Author: ar-coder
 :: Version: 1.0
-:: 
+::
 */
 
 /* :: Medium devices */
 @media (max-width: 991px){
-    
+
     /* :: Navbar Top */
     .nav-top .nav-top-box ul li .btn-1{
         display: none;
     }
-    
+
     /* :: Navbar */
     .nav-bar .nav-bar-link{
         display: none;
@@ -129,7 +129,7 @@
     .nav-bar .icon{
         display: none;
     }
-    
+
     /* :: Header */
     .header-2 .box-hero{
         display: block !important;
@@ -145,12 +145,12 @@
     .header-2 .box-hero .services-header .line{
         display: inline-block;
     }
-    
+
     /* :: Features */
     .features .features-box .features-item{
         width: 100%;
     }
-    
+
     /* :: About Us */
     .about .text-box{
         margin-top: 50px;
@@ -159,12 +159,12 @@
     .about-3 .text-box{
         margin: 0 0 50px 0;
     }
-    
+
     /* :: Skills */
     .skills{
         margin-top: 50px;
     }
-    
+
     /* :: Practice Area */
     .practice-area{
         background-position: right;
@@ -172,42 +172,42 @@
     .practice-area-2{
         background-position: unset;
     }
-    
+
     /* :: Quote */
     .quote-box{
         margin-top: 50px;
     }
-    
+
     /* :: Quote */
     .subscribe {
         margin-top: 50px;
     }
-    
+
     /* :: Provide */
     .provide .text-box{
         padding: 80px 40px;
     }
-    
+
     /* :: Pagination */
     .pagination-area.one{
         margin-bottom: 30px;
     }
-    
+
     /* :: Shop */
     .shop.area .text-box-details .title-product{
         margin-top: 50px;
     }
-    
+
 }
 
 /* :: Small devices */
 @media (max-width: 768px){
-    
+
     /* :: Navbar Top */
     .nav-top{
         display: none;
     }
-    
+
     /* :: Header */
     .header .banner .handline{
         font-size: 58px;
@@ -215,7 +215,7 @@
     .header-2 .box-hero .services-header{
         display: none !important;
     }
-    
+
     /* :: Provide */
     .provide .img-box{
         height: 600px;
@@ -223,7 +223,7 @@
     .provide .text-box{
         padding: 80px;
     }
-    
+
     /* :: Presentation */
     .presentation-box{
         top: auto;
@@ -233,22 +233,22 @@
             -ms-transform: translateX(-50%);
                 transform: translateX(-50%);
     }
-    
+
 }
 
 /* :: Extra small devices */
 @media (max-width: 575px){
-    
+
     /* :: Header */
     .header .banner .handline {
         font-size: 48px;
     }
-    
+
     /* :: Menu Box */
     .menu-box .inner-menu{
         width: 100%;
     }
-    
+
     /* :: About Us */
     .core-about li{
         float: none;
@@ -260,16 +260,16 @@
     .about .text-box .sign-about{
         margin-top: 20px;
     }
-    
+
     /* :: Provide */
     .provide .text-box{
         padding: 80px 40px;
     }
-    
+
     .page-404-area h2{
         font-size: 150px;
     }
-    
+
 }
 
 /* :: Dark Mode */
@@ -279,8 +279,10 @@
     }
 }
 @media (max-width: 768px){
-    
+
 }
-@media (max-width: 575px){
-    
+@media (max-width: 400px){
+    .header .banner .handline {
+        font-size: 36px;
+    }
 }

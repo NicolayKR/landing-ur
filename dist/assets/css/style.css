@@ -3576,12 +3576,6 @@ body.active-dark-mode-decision,
 .form-check-submit{
     padding-left: 1.4rem !important;
 }
-.contact-block{
-    font-size: 18px;
-    line-height: 30px;
-    position: absolute;
-    bottom: 0;
-}
 .contact-block .title{
     font-weight: bold;
     margin-bottom: 10px;
@@ -3604,6 +3598,18 @@ body.active-dark-mode-decision,
     }
     .about .img-fluid{
         height: 620px;
+    }
+}
+.contact-block{
+    font-size: 18px;
+    line-height: 30px;
+}
+@media(min-width: 992px){
+    .contact-block{
+        font-size: 18px;
+        line-height: 30px;
+        position: absolute;
+        bottom: 0;
     }
 }
 @media(max-width: 992px){
