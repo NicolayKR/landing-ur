@@ -1382,7 +1382,7 @@ header.navs.active{
 }
 .practice-area-item img{
     width: 40px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 .practice-area-item:hover{
     background-color: #C89D66;
@@ -1406,7 +1406,7 @@ header.navs.active{
     font-size: 22px;
     font-weight: 600;
     /*margin-bottom: 20px;*/
-    height: 50px;
+    /*height: 50px;*/
 }
 .practice-area-item .content p{
     margin-bottom: 0;
@@ -3445,8 +3445,8 @@ body.active-dark-mode-decision,
     max-width: 350px;
 }
 .practice-area-item p{
-    margin-top: 15px;
-    height: 150px;
+    margin-top: 20px;
+    /*height: 150px;*/
 }
 .core-about li{
     position: relative;
