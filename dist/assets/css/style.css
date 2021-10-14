@@ -3631,6 +3631,9 @@ body.active-dark-mode-decision,
     .button-wrapper{
         text-align: center;
     }
+    #question{
+        padding-top: 30px !important;
+    }
 }
 #fixed-navbar .info{
     display: none;
