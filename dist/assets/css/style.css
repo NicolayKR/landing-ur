@@ -148,7 +148,6 @@ p {
     background-color: #C89D66;
     font-size: 13px;
     color: #FFF;
-    text-transform: capitalize;
     padding: 0 40px;
     line-height: 50px;
     border-radius: 2px;
@@ -201,7 +200,6 @@ p {
     color: #262B3E;
     font-size: 36px;
     font-weight: 700;
-    text-transform: capitalize;
     margin-bottom: 30px;
     margin-top: 20px;
     line-height: 1.3;
@@ -211,7 +209,7 @@ p {
     font-weight: 400;
     line-height: 26px;
     margin-bottom: 0;
-    text-transform: capitalize;
+    padding-right: 15px;
 }
 .sec-title-2 h2:after{
     content: '';
@@ -509,7 +507,6 @@ header.navs.active{
     margin: 0 20px 0 0px;
     position: relative;
     display: block;
-    text-transform: capitalize;
 }
 .nav-bar .nav-bar-link ul li a:before{
     content: '';
@@ -575,7 +572,6 @@ header.navs.active{
     width: 100%;
     position: relative;
     font-weight: normal;
-    text-transform: capitalize;
     display: inline-block;
 }
 .nav-bar .nav-bar-link > ul ul li:hover a{
@@ -626,7 +622,6 @@ header.navs.active{
     color: #F1F1F1;
     font-size: 14px;
     font-weight: 500;
-    text-transform: capitalize;
     line-height: 1;
     display: block;
     margin-top: 10px;
@@ -853,7 +848,6 @@ header.navs.active{
     width: 150px;
 }
 .menu-box .inner-menu .website-info p{
-    text-transform: capitalize;
     font-size: 14px;
 }
 .menu-box .inner-menu .contact-info h4,
@@ -863,7 +857,6 @@ header.navs.active{
     font-weight: 600;
     line-height: 1;
     margin-bottom: 20px;
-    text-transform: capitalize;
     color: #262B3E;
 }
 .menu-box .inner-menu .contact-info .contact-box{
@@ -946,14 +939,12 @@ header.navs.active{
 }
 .header .banner .handline{
     color: #FFF;
-    text-transform: capitalize;
     font-weight: 700;
     line-height: 1.2;
     font-size: 60px;
     margin-bottom: 30px;
 }
 .header .banner .about-website{
-    text-transform: capitalize;
     font-size: 16px;
     color: #F9F9F9;
     font-weight: 600;
@@ -1058,7 +1049,6 @@ header.navs.active{
     font-size: 14px;
     font-weight: 600;
     line-height: 1;
-    text-transform: capitalize;
 }
 
 /* :: Header 3 */
@@ -1108,12 +1098,10 @@ header.navs.active{
     font-size: 14px;
     font-weight: 600;
     line-height: 1;
-    text-transform: capitalize;
     color: #F1F1F1;
 }
 .features .features-box .features-item .item-text h4{
     line-height: 1.1;
-    text-transform: capitalize;
     font-size: 22px;
     font-weight: 600;
     color: #F1F1F1;
@@ -1205,7 +1193,6 @@ header.navs.active{
     font-size: 18px;
     font-weight: 600;
     line-height: 1.1;
-    text-transform: capitalize;
     color: #FFF;
 }
 .about .text-box .sec-title{
@@ -1230,11 +1217,14 @@ header.navs.active{
 .core-about li h4{
     display: inline-block;
     position: relative;
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: bold;
     color: #262B3E;
-    text-transform: capitalize;
     font-family: 'Poppins', sans-serif;
+}
+.core-about p{
+    font-size: 15px;
+    color: #555555;
 }
 .about .text-box .p-about{
     margin-bottom: 30px;
@@ -1346,7 +1336,6 @@ header.navs.active{
     line-height: 1;
 }
 .skills .skill-box .skill-top .name{
-    text-transform: capitalize;
     font-size: 13px;
     line-height: 23px;
     font-weight: 600;
@@ -1387,13 +1376,14 @@ header.navs.active{
     overflow: hidden;
 }
 .practice-area-item{
-    padding: 40px 30px;
+    padding: 30px 30px;
     margin-bottom: 30px;
     border: 1px solid #DDD;
     border-radius: 2px;
 }
 .practice-area-item img{
     width: 40px;
+    margin-bottom: 15px;
 }
 .practice-area-item:hover{
     background-color: #C89D66;
@@ -1410,11 +1400,10 @@ header.navs.active{
             animation: updown 0.4s ease-in-out 50ms;
 }
 .practice-area-item .content{
-    padding-left: 60px;
+    /*padding-left: 60px;*/
 }
 .practice-area-item .content h4{
     line-height: 1.1;
-    text-transform: capitalize;
     font-size: 22px;
     font-weight: 600;
     /*margin-bottom: 20px;*/
@@ -1422,6 +1411,8 @@ header.navs.active{
 }
 .practice-area-item .content p{
     margin-bottom: 0;
+    font-size: 15px;
+    color: #555555;
 }
 .practice-area-item .content a{
     margin-top: 20px;
@@ -1523,7 +1514,6 @@ header.navs.active{
     margin-bottom: 5px;
     font-size: 13px;
     font-weight: 600;
-    text-transform: capitalize;
 }
 .history-line .box-line .down span:last-of-type{
     margin: 0;
@@ -1554,7 +1544,6 @@ header.navs.active{
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 20px;
-    text-transform: capitalize;
     color: #FFF;
 }
 .history-2-item .content p{
@@ -1663,7 +1652,6 @@ header.navs.active{
     border-bottom: 1px solid rgb(249 249 249 / 0.1);
     position: relative;
     font-weight: normal;
-    text-transform: capitalize;
     display: block;
     font-weight: 400;
 }
@@ -1847,7 +1835,6 @@ header.navs.active{
     background-color: #C89D66;
     font-size: 14px;
     color: #FFF;
-    text-transform: capitalize;
     width: 44px;
     height: 44px;
     line-height: 44px;
@@ -1868,7 +1855,6 @@ header.navs.active{
 }
 .advisors-box .text-box h5{
     line-height: 1.3;
-    text-transform: capitalize;
     font-size: 18px;
     font-weight: 600;
     color: #262B3E;
@@ -1943,7 +1929,6 @@ header.navs.active{
 }
 .provide .text-box .content-box .content-item .box h4{
     line-height: 1.1;
-    text-transform: capitalize;
     font-size: 18px;
     font-weight: 600;
     color: #F1F1F1;
@@ -1994,7 +1979,6 @@ header.navs.active{
     font-size: 14px;
     font-weight: 500;
     line-height: 1;
-    text-transform: capitalize;
     letter-spacing: 0.23px;
     display: inline-block;
     margin-left: 5px;
@@ -2126,7 +2110,6 @@ header.navs.active{
     line-height: 1.2;
     margin-top: 15px;
     margin-bottom: 8px;
-    text-transform: capitalize;
     color: #262B3E;
     text-align: center;
 }
@@ -2137,7 +2120,6 @@ header.navs.active{
     font-size: 14px;
     font-weight: 500;
     text-align: center;
-    text-transform: capitalize;
     color: #9B9B9B;
 }
 .owl-testimonial.owl-theme .owl-dots{
@@ -2284,7 +2266,6 @@ header.navs.active{
     font-size: 18px;
     line-height: 20px;
     margin-bottom: 0;
-    text-transform: capitalize;
 }
 .owl-testimonial-1 .box-item .clients-talk .info span,
 .owl-testimonial-3 .box-item .clients-talk .info span{
@@ -2293,7 +2274,6 @@ header.navs.active{
     margin-bottom: 0px;
     font-size: 14px;
     font-weight: 500;
-    text-transform: capitalize;
     margin-top: 10px;
     color: #C89D66;
 }
@@ -2307,7 +2287,7 @@ header.navs.active{
 .subscribe .sec-title h3{
     margin-top: 0;
 }
-.subscribe input{
+.subscribe .input-block{
     border: 2px solid #E9E9E9;
     padding: 12px;
     width: 100%;
@@ -2351,7 +2331,6 @@ header.navs.active{
 }
 .blog-item .img-box ul li a{
     font-size: 13px;
-    text-transform: capitalize;
 }
 .blog-item .img-box ul li:hover a{
     color: #262B3E;
@@ -2378,7 +2357,6 @@ header.navs.active{
     font-size: 14px;
     color: #262B3E;
     display: inline-block;
-    text-transform: capitalize;
     font-weight: 600;
 }
 .blog-item .text-box .link:hover{
@@ -2424,7 +2402,6 @@ header.navs.active{
 .footer-title h4{
     color: #FFF;
     font-size: 16px;
-    text-transform: capitalize;
     line-height: 1.2;
     margin-bottom: 25px;
 }
@@ -2446,7 +2423,6 @@ header.navs.active{
 .footer .newsletter h5{
     color: #C89D66;
     font-size: 16px;
-    text-transform: capitalize;
     line-height: 1.2;
     margin-bottom: 20px;
 }
@@ -2463,7 +2439,6 @@ header.navs.active{
     color: #9B9B9B;
     background-color: transparent;
     font-size: 13px;
-    text-transform: capitalize;
     padding: 0 15px;
     line-height: 44px;
     border-radius: 3px;
@@ -2490,7 +2465,7 @@ header.navs.active{
     border-radius: 3px;
 }
 .copyright{
-    margin-top: 70px;
+    /*margin-top: 70px;*/
     padding: 40px 0;
     background-color: #313851;
     overflow: hidden
@@ -2570,7 +2545,6 @@ header.navs.active{
     line-height: 1.2;
     color: #FFF;
     margin-bottom: 0;
-    text-transform: capitalize;
     margin-bottom: 25px;
 }
 .breadcrumb-header .banner ul li{
@@ -2581,7 +2555,6 @@ header.navs.active{
     font-weight: 500;
     letter-spacing: 0.30px;
     color: #F9F9F9;
-    text-transform: capitalize;
 }
 .breadcrumb-header .banner ul li:hover a{
     color: #C89D66;
@@ -2596,7 +2569,6 @@ header.navs.active{
 .brochures h5{
     font-weight: 600;
     margin-bottom: 10px;
-    text-transform: capitalize;
     color: #262B3E;
     font-size: 18px;
 }
@@ -2629,7 +2601,6 @@ header.navs.active{
     font-size: 24px;
     line-height: 1.1;
     color: #262B3E;
-    text-transform: capitalize;
     font-weight: 600;
     margin-bottom: 30px;
 }
@@ -2644,7 +2615,6 @@ header.navs.active{
     font-size: 14px;
     font-weight: 500;
     line-height: 1;
-    text-transform: capitalize;
     position: relative;
     border-bottom: 1px solid #E9E9E9;
 }
@@ -2673,7 +2643,6 @@ header.navs.active{
 .call-back h5{
     font-weight: 600;
     margin-bottom: 10px;
-    text-transform: capitalize;
     color: #FFF;
     font-size: 18px;
 }
@@ -2693,7 +2662,6 @@ header.navs.active{
     font-size: 32px;
     line-height: 1.2;
     color: #262B3E;
-    text-transform: capitalize;
     font-weight: 600;
     margin-bottom: 20px;
 }
@@ -2712,7 +2680,6 @@ header.navs.active{
     font-size: 14px;
     font-weight: 500;
     margin-bottom: 12px;
-    text-transform: capitalize;
     color: #687076;
 }
 .faq .faq-box{
@@ -2733,7 +2700,6 @@ header.navs.active{
     color: #262B3E;
     font-weight: 600;
     line-height: 25px;
-    text-transform: capitalize;
     position: relative;
     width: 100%;
     text-align: left;
@@ -2781,7 +2747,6 @@ header.navs.active{
 }
 .widget .widget-title h3{
     line-height: 1.2;
-    text-transform: capitalize;
     color: #262B3E;
     position: relative;
     font-size: 18px;
@@ -2881,7 +2846,6 @@ header.navs.active{
     padding: 15px 0;
     display: block;
     line-height: 15px;
-    text-transform: capitalize;
     color: #A5A5A5;
 }
 .widget .categories ul li:first-of-type a{
@@ -3005,7 +2969,6 @@ header.navs.active{
 .single-bolg .item-comments .title h4,
 .single-bolg .add-comments .title h4{
     line-height: 14px;
-    text-transform: capitalize;
     color: #223645;
     position: relative;
     font-size: 18px;
@@ -3043,7 +3006,6 @@ header.navs.active{
     font-size: 18px;
     font-weight: 600;
     line-height: 23px;
-    text-transform: capitalize;
     margin-bottom: 5px;
 }
 .single-bolg .item-comments .inner-comments .comments-box .text-box .time{
@@ -3130,7 +3092,6 @@ header.navs.active{
     font-size: 14px;
     color: #C89D66;
     display: inline-block;
-    text-transform: capitalize;
     font-weight: 600;
 }
 
@@ -3189,7 +3150,6 @@ header.navs.active{
     color: #262B3E;
     font-weight: bold;
     margin-bottom: 20px;
-    text-transform: capitalize;
 }
 .shop.area .text-box-details .item-review span{
     display: inline-block;
@@ -3476,11 +3436,11 @@ body.active-dark-mode-decision,
 .practice-area-item .content{
     position: relative;
 }
-.practice-area-item .content img{
-    left: 0;
-    top: 0;
-    position: absolute;
-}
+/*.practice-area-item .content img{*/
+/*    left: 0;*/
+/*    top: 0;*/
+/*    position: absolute;*/
+/*}*/
 .practice-area-item{
     min-height: 270px;
     max-width: 350px;
@@ -3494,12 +3454,12 @@ body.active-dark-mode-decision,
 }
 .core-about img{
     position: absolute;
-    width: 30px;
+    width: 40px;
     left: 0;
     top: 5px;
 }
 .core-about .content{
-    padding-left: 45px;
+    padding-left: 60px;
 }
 .full-item{
     height: 100%;
@@ -3513,7 +3473,6 @@ body.active-dark-mode-decision,
 }
 .map-section{
     margin-top: 70px;
-    width: 90%;
     height: 400px;
 }
 .map-section>ymaps{
@@ -3590,4 +3549,44 @@ body.active-dark-mode-decision,
     list-style: disc;
     padding-left: 20px;
     padding-top: 10px;
+}
+/*.form-check-label:before{*/
+/*    background-color:red;*/
+/*}*/
+/*.form-check-input:checked~.form-check-label::before{*/
+/*    background-color:black;*/
+/*}*/
+
+.advisors-box .img-box .img-fluid{
+    max-height: 466px;
+    max-width: 350px;
+}
+.about-text li{
+    color: #555555;
+    font-size: 15px;
+}
+#exampleCheck2{
+    position: absolute;
+    left: 23px;
+    top: 1px;
+}
+.form-check-submit{
+    padding-left: 1.4rem !important;
+}
+.contact-block{
+    font-size: 18px;
+    line-height: 25px;
+    position: absolute;
+    bottom: 0;
+}
+.contact-block .title{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#map {
+    width: 100%;
+    height: 400px;
+    max-height: 400px;
+    padding: 0;
+    margin: 0;
 }
