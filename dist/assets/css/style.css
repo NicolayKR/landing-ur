@@ -3616,9 +3616,20 @@ body.active-dark-mode-decision,
     .owl-item{
         margin-right: 0px;
     }
-    body {
-        /*font-size: 14px;*/
+    .core-about p {
+        font-size: 18px;
         color: #555555;
+    }
+    .sec-title p{
+        font-size: 18px;
+        color: #555555;
+    }
+    .practice-area-item .content p{
+        font-size: 18px;
+        color: #555555;
+    }
+    .button-wrapper{
+        text-align: center;
     }
 }
 #fixed-navbar .info{
