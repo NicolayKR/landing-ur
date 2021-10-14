@@ -3558,10 +3558,11 @@ body.active-dark-mode-decision,
 /*.form-check-input:checked~.form-check-label::before{*/
 /*    background-color:black;*/
 /*}*/
-
-.advisors-box .img-box .img-fluid{
-    max-height: 466px;
-    max-width: 350px;
+@media(min-width: 992px){
+    .advisors-box .img-box .img-fluid{
+        max-height: 466px;
+        max-width: 350px;
+    }
 }
 .about-text li{
     color: #555555;
@@ -3609,4 +3610,7 @@ body.active-dark-mode-decision,
     .owl-item{
         margin-right: 0px;
     }
+}
+#fixed-navbar .info{
+    display: none;
 }

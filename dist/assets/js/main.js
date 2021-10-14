@@ -398,3 +398,17 @@ $(document).ready(function(){
         $('body,html').animate({scrollTop: top}, 800);
     });
 });
+$(document).ready(function(){
+    var nav = $('#fixed-navbar');
+    if(nav.hasClass('active') && $(window).width() <= '992'){
+        nav.find('.info').css('display', 'block');
+    }
+});
+$(window).scroll(function() {
+    var nav = $('#fixed-navbar');
+    if(nav.hasClass('active') && $(window).width() <= '992'){
+        nav.find('.info').css('display', 'block');
+    }else{
+        nav.find('.info').css('display', 'none');
+    }
+});
