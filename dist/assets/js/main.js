@@ -41,6 +41,12 @@
         $menuLink.toggleClass('active');
         $navbarMenu.toggleClass('active');
     });
+    $(window).click(function(e) {
+        var target = e.target;
+        if($navbarMenu.hasClass('active') && target.className != 'open-nav-bar active' && target.className != 'hamburger-vector'){
+            $navbarMenu.toggleClass('active');
+        }
+    });
 
     // :: Add Class Active For $menuTriggerLink
     $menuTriggerLink.on('click', function (e) {
@@ -394,7 +400,7 @@ $(document).ready(function(){
     $("#open-nav-bar-menu").on("click","a", function (event) {
         event.preventDefault();
         var id  = $(this).attr('href'),
-        top = $(id).offset().top;
+        top = $(id).offset().top - 100;
         $('body,html').animate({scrollTop: top}, 800);
     });
 });
@@ -412,3 +418,4 @@ $(window).scroll(function() {
         nav.find('.info').css('display', 'none');
     }
 });
+

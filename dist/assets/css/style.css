@@ -1243,7 +1243,7 @@ header.navs.active{
 .about-2 .img-box:after{
     content: '';
     background-color: #C89D66;
-    width: 80%;
+    width: 60%;
     height: 100%;
     position: absolute;
     top: 0;
@@ -3588,18 +3588,20 @@ body.active-dark-mode-decision,
     margin: 0;
 }
 .about .text-box{
-    padding: 0 30px;
+    padding: 0 5px;
 }
 @media(min-width: 1200px){
     .about .img-box{
         height: 100%;
         display: flex;
         align-items: center;
+        justify-content: center;
     }
     .about .img-fluid{
-        height: 620px;
+        height: 576px;
     }
 }
+
 .contact-block{
     font-size: 18px;
     line-height: 30px;
@@ -3610,6 +3612,9 @@ body.active-dark-mode-decision,
         line-height: 30px;
         position: absolute;
         bottom: 0;
+    }
+    .owl-carousel .owl-item img{
+        height: 500px;
     }
 }
 @media(max-width: 992px){
@@ -3633,6 +3638,11 @@ body.active-dark-mode-decision,
     }
     #question{
         padding-top: 30px !important;
+    }
+}
+@media(max-width: 992px) and (min-width: 768px){
+    .owl-carousel .owl-item img{
+        max-height: 450px;
     }
 }
 #fixed-navbar .info{
