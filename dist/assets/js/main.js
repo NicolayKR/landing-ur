@@ -469,6 +469,7 @@ $('.subscribe').submit(function (e){
             success.css('display', 'block');
             successText.text('Наш менеджер свяжется с вами в течение 10 минут');
             btn.removeClass('progress-bar-striped progress-bar-animated');
+            nav.css('display', 'none');
         },error: function (){
             b.style.visibility = 'visible';
             b.style.opacity = '1';
@@ -477,6 +478,7 @@ $('.subscribe').submit(function (e){
             success.css('display', 'block');
             successText.text('Ошибка отправки сообщения');
             btn.removeClass('progress-bar-striped progress-bar-animated');
+            nav.css('display', 'none');
         }
     });
 });
