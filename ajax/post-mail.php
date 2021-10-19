@@ -7,7 +7,7 @@ $fio = urldecode($fio);
 $email = urldecode($email);
 $fio = trim($fio);
 $email = trim($email);
-$to = "n.kryuchkov@enterprise-it.ru";
+$to = "rusoptim-info@yandex.ru";
 $message = '
 <html>
 <body>
