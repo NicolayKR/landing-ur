@@ -399,12 +399,6 @@ function swa2(){
     var nav = $('#fixed-navbar');
     nav.css('display', 'block');
 }
-function swa3(){
-    var nav = $('#fixed-navbar');
-    b.style.visibility = 'hidden';
-    b.style.opacity = '0';
-    nav.css('display', 'block');
-}
 $(document).ready(function(){
     $("#open-nav-bar-menu").on("click","a", function (event) {
         event.preventDefault();
@@ -443,17 +437,20 @@ $('.mail-form').submit(function (e){
             success.css('display', 'block');
             successText.text('Наш менеджер свяжется с вами в течение 10 минут');
             btn.removeClass('progress-bar-striped progress-bar-animated');
+            nav.css('display', 'none');
         },error: function (){
             th.css('display','none');
             success.css('display', 'block');
             successText.text('Ошибка отправки сообщения');
             btn.removeClass('progress-bar-striped progress-bar-animated');
+            nav.css('display', 'none');
         }
     });
 });
 $('.subscribe').submit(function (e){
     e.preventDefault();
     let b = document.getElementById('overlay');
+    let nav = $('#fixed-navbar');
     let th = $(this);
     let success = $('#success-mess');
     let successText = $('#success-text');
