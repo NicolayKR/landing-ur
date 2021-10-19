@@ -3649,10 +3649,15 @@ body.active-dark-mode-decision,
     display: none;
 }
 .yandex-reviews{
-    background-color: white;
-    width: 200px;
-    height: 60px;
+    max-width: 200px;
+    max-height: 60px;
     border-radius: 10px
+}
+.yandex-reviews img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    /*background: url("/dist/assets/images/yandex-logo.png") no-repeat;*/
 }
 .nav-bar.active .contact-nav a{
     color: #262B3E;
@@ -3662,4 +3667,21 @@ body.active-dark-mode-decision,
 }
 #form{
     display: block;
+}
+.logo-yandex{
+    display: flex;
+    justify-content: center;
+}
+@media(max-width: 992px){
+    .logo-yandex{
+        margin-top: 20px;
+        justify-content: flex-start;
+    }
+    .copyright ul{
+        margin-top: 20px;
+        float: left;
+    }
+    .copyright ul li {
+         margin-left: 0px;
+    }
 }
