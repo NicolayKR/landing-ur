@@ -1243,7 +1243,7 @@ header.navs.active{
 .about-2 .img-box:after{
     content: '';
     background-color: #C89D66;
-    width: 60%;
+    width: 80%;
     height: 100%;
     position: absolute;
     top: 0;
@@ -3588,7 +3588,7 @@ body.active-dark-mode-decision,
     margin: 0;
 }
 .about .text-box{
-    padding: 0 5px;
+    padding: 0 30px;
 }
 @media(min-width: 1200px){
     .about .img-box{
@@ -3598,7 +3598,7 @@ body.active-dark-mode-decision,
         justify-content: center;
     }
     .about .img-fluid{
-        height: 576px;
+        height: 625px;
     }
 }
 
@@ -3647,4 +3647,19 @@ body.active-dark-mode-decision,
 }
 #fixed-navbar .info{
     display: none;
+}
+.yandex-reviews{
+    background-color: white;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px
+}
+.nav-bar.active .contact-nav a{
+    color: #262B3E;
+}
+#success-mess{
+    display: none;
+}
+#form{
+    display: block;
 }
