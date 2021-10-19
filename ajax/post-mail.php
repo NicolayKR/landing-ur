@@ -29,3 +29,4 @@ $message = '
 $headers  = "Content-type: text/html; charset=utf-8\r\n";
 mail($to, "Заявка на консультацию", $message, $headers);
 
+?>
