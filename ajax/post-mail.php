@@ -27,9 +27,5 @@ $message = '
 </body>
 </html>';
 $headers  = "Content-type: text/html; charset=utf-8\r\n";
-if (mail($to, "Заявка на консультацию", $message, $headers))
-{
-    echo 1;
-} else {
-    echo 0;
-}
+mail($to, "Заявка на консультацию", $message, $headers);
+
