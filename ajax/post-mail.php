@@ -20,7 +20,7 @@ $message = '
  </tr>
  <tr>
   <td><b>Телефон</b></td>
-  <td><a href="tel:'.$phone.'">.$phone.</a></td>
+  <td><a href="tel:'.$phone.'">'.$phone.'</a></td>
  </tr>
 </table>
 </center>
