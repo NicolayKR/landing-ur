@@ -3685,3 +3685,9 @@ body.active-dark-mode-decision,
          margin-left: 0px;
     }
 }
+.popup h4{
+   font-size: 1.7rem;
+}
+#inner-menu-right a{
+    color: #9B9B9B;
+}

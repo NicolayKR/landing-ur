@@ -384,7 +384,7 @@ $(document).ready(function () {
 var b = document.getElementById('overlay');
 function swa(){
     var nav = $('#fixed-navbar');
-    var form = $('.mail-form');
+    let form = $('#form');
     let success = $('#success-mess');
     nav.css('display', 'none');
     b.style.visibility = 'visible';
@@ -427,19 +427,20 @@ $('.mail-form').submit(function (e){
     let success = $('#success-mess');
     let successText = $('#success-text');
     let btn = th.find('.btn-1');
+    let form = $('#form');
     btn.addClass('progress-bar-striped progress-bar-animated');
     $.ajax({
         url: '/ajax/post-mail.php',
         type: "POST",
         data: th.serialize(),
         success: function (){
-            th.css('display','none');
+            form.css('display','none');
             success.css('display', 'block');
             successText.text('Наш менеджер свяжется с вами в течение 10 минут');
             btn.removeClass('progress-bar-striped progress-bar-animated');
             nav.css('display', 'none');
         },error: function (){
-            th.css('display','none');
+            form.css('display','none');
             success.css('display', 'block');
             successText.text('Ошибка отправки сообщения');
             btn.removeClass('progress-bar-striped progress-bar-animated');
