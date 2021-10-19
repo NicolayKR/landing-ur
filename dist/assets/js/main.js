@@ -384,7 +384,6 @@ $(document).ready(function () {
 var b = document.getElementById('overlay');
 function swa(){
     var nav = $('#fixed-navbar');
-    console.log(nav);
     nav.css('display', 'none');
     b.style.visibility = 'visible';
     b.style.opacity = '1';
@@ -418,4 +417,5 @@ $(window).scroll(function() {
         nav.find('.info').css('display', 'none');
     }
 });
+
 
