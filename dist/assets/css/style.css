@@ -3589,9 +3589,6 @@ body.active-dark-mode-decision,
         align-items: center;
         justify-content: center;
     }
-    .about .img-fluid{
-        height: 625px;
-    }
 }
 
 .contact-block{
@@ -3705,3 +3702,12 @@ input::-moz-placeholder {
 /*.subscribe .input-block{*/
 /*    color: #e5dddd;*/
 /*}*/
+.img-fluid{
+    width: 100%;
+}
+@media(min-width: 992px){
+    .about-img .img-fluid{
+        width: 110% !important;
+    }
+}
+
