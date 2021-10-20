@@ -791,7 +791,7 @@
                         <input class="input-block" type="text" name="fio" placeholder="ФИО">
                     </div>
                     <div class="subscribe-item">
-                        <input class="input-block" type="phone" name="phone" placeholder="Телефон">
+                        <input class="input-block" type="tel" id="phone2" name="phone" placeholder="+7 (999) 99 99 999" required>
                     </div>
                     <div class="mb-3 form-check form-check-submit">
                         <input type="checkbox" class="form-check-input" id="exampleCheck2" Checked="true" required>
@@ -940,6 +940,9 @@
 <script>
     $(document).ready(function() {
         $("#phone").mask("+7 (999) 99-99-999");
+    });
+    $(document).ready(function() {
+        $("#phone2").mask("+7 (999) 99-99-999");
     });
 </script>
 </body>
