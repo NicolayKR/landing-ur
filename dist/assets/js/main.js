@@ -434,11 +434,12 @@ $('.mail-form').submit(function (e){
         type: "POST",
         data: th.serialize(),
         success: function (){
-            form.css('display','none');
-            success.css('display', 'block');
-            successText.text('Наш менеджер свяжется с вами в течение 10 минут');
-            btn.removeClass('progress-bar-striped progress-bar-animated');
-            nav.css('display', 'none');
+            window.location.href = '/thanks.html';
+            // form.css('display','none');
+            // success.css('display', 'block');
+            // successText.text('Наш менеджер свяжется с вами в течение 10 минут');
+            // btn.removeClass('progress-bar-striped progress-bar-animated');
+            // nav.css('display', 'none');
         },error: function (){
             form.css('display','none');
             success.css('display', 'block');
@@ -463,14 +464,15 @@ $('.subscribe').submit(function (e){
         type: "POST",
         data: th.serialize(),
         success: function (){
-            b.style.visibility = 'visible';
-            b.style.opacity = '1';
-            b.style.transition = 'all 0.7s ease-out 0s';
-            form.css('display', 'none');
-            success.css('display', 'block');
-            successText.text('Наш менеджер свяжется с вами в течение 10 минут');
-            btn.removeClass('progress-bar-striped progress-bar-animated');
-            nav.css('display', 'none');
+            window.location.href = '/thanks.html';
+            // b.style.visibility = 'visible';
+            // b.style.opacity = '1';
+            // b.style.transition = 'all 0.7s ease-out 0s';
+            // form.css('display', 'none');
+            // success.css('display', 'block');
+            // successText.text('Наш менеджер свяжется с вами в течение 10 минут');
+            // btn.removeClass('progress-bar-striped progress-bar-animated');
+            // nav.css('display', 'none');
         },error: function (){
             b.style.visibility = 'visible';
             b.style.opacity = '1';

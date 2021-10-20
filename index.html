@@ -806,43 +806,45 @@
     </div>
 </section>
 <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=7b980957-a9fc-4403-8ca9-72f3cac69f51" type="text/javascript"></script>
-<script type="application/javascript">
-    var initYandexMap = false;
-    ymaps.ready(function () {
-        if(initYandexMap == false){
-            var myMap = new ymaps.Map('map', {
-                        center: [47.290626, 39.732710],
-                        zoom: 17,
-                        controls: [
-                            'zoomControl'
-                        ]
-                    }, {
-                        searchControlProvider: 'yandex#search',
-                        suppressMapOpenBlock: true,
-                    }),
-                    myPlacemarkWithContent = new ymaps.Placemark([47.290626, 39.732710], {
-                        hintContent: 'г. Ростов-на-Дону, ул. Шахтановского, 29А, оф. 302',
-                        balloonContent: '<div>г. Ростов-на-Дону, ул. Шахтановского, 29А, оф. 302</div><div>8 (909) 410-04-10</div><div>rusoptim-info@yandex.ru</div>',
-                        iconContent: ''
-                    }, {
-                        // Опции.
-                        preset: 'islands#icon',
-                        iconColor: 'red',
+<!--<script type="application/javascript">-->
+<!--    var initYandexMap = false;-->
+<!--    ymaps.ready(function () {-->
+<!--        if(initYandexMap == false){-->
+<!--            var myMap = new ymaps.Map('map', {-->
+<!--                        center: [47.290626, 39.732710],-->
+<!--                        zoom: 17,-->
+<!--                        controls: [-->
+<!--                            'zoomControl'-->
+<!--                        ]-->
+<!--                    }, {-->
+<!--                        searchControlProvider: 'yandex#search',-->
+<!--                        suppressMapOpenBlock: true,-->
+<!--                    }),-->
+<!--                    myPlacemarkWithContent = new ymaps.Placemark([47.290626, 39.732710], {-->
+<!--                        hintContent: 'г. Ростов-на-Дону, ул. Шахтановского, 29А, оф. 302',-->
+<!--                        balloonContent: '<div>г. Ростов-на-Дону, ул. Шахтановского, 29А, оф. 302</div><div>8 (909) 410-04-10</div><div>rusoptim-info@yandex.ru</div>',-->
+<!--                        iconContent: ''-->
+<!--                    }, {-->
+<!--                        // Опции.-->
+<!--                        preset: 'islands#icon',-->
+<!--                        iconColor: 'red',-->
 
-                    });
-            myMap.geoObjects
-                    .add(myPlacemarkWithContent);
-                    const screenWidth = window.screen.width
-            if (screenWidth < 520){
-                myMap.behaviors.disable('drag');
-            }
-            initYandexMap = true;
-            myMap.behaviors.disable('scrollZoom');
-        }
-    });
-</script>
+<!--                    });-->
+<!--            myMap.geoObjects-->
+<!--                    .add(myPlacemarkWithContent);-->
+<!--                    const screenWidth = window.screen.width-->
+<!--            if (screenWidth < 520){-->
+<!--                myMap.behaviors.disable('drag');-->
+<!--            }-->
+<!--            initYandexMap = true;-->
+<!--            myMap.behaviors.disable('scrollZoom');-->
+<!--        }-->
+<!--    });-->
+<!--</script>-->
+<!--<div id="map">-->
+<!--</div>-->
 <div id="map">
-
+    <iframe src="https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=217614724830" width="100%" height="100%" frameborder="0"></iframe>
 </div>
 <!-- :: Footer -->
 <footer class="footer">
@@ -874,7 +876,7 @@
                 </div>
                 <div class="mb-3 mt-3">
                     <label for="exampleInputEmail1" class="form-label">ФИО</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" name="fio">
+                    <input type="text" class="form-control" id="exampleInputEmail1" name="fio" placeholder="ФИО">
                 </div>
                 <div class="mb-3">
                     <label for="phone" class="form-label">Телефон <span style="color: red">*</span></label>

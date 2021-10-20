@@ -3473,14 +3473,6 @@ body.active-dark-mode-decision,
     color:white;
     border-radius: 2px;
 }
-.map-section{
-    margin-top: 70px;
-    height: 400px;
-}
-.map-section>ymaps{
-    max-height: 400px;
-    width: 100%;
-}
 /*popup*/
 #overlay {
     position: fixed;
@@ -3689,3 +3681,27 @@ body.active-dark-mode-decision,
 #inner-menu-right a{
     color: #9B9B9B;
 }
+input::-webkit-input-placeholder {
+    color: #e5dddd;
+}
+input::-moz-placeholder {
+    color: #e5dddd;
+}
+.mail-form input::-webkit-input-placeholder {
+    color: #e5dddd;
+}
+.mail-form input::-moz-placeholder {
+    color: #e5dddd;
+}
+.thanks-header{
+    height: 100vh;
+}
+.thanks-header .display-table{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+/*.subscribe .input-block{*/
+/*    color: #e5dddd;*/
+/*}*/
