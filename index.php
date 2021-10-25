@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Decision is a Lawyer & Attorney HTML Template. Designed with great attention to details, flexibility and performance. It is ultra professional, smooth and sleek, with a clean modern layout. Decision specially designed for Attorneys, Lawyers, Law Firm, Law Advisers, Legal Officers, Legal Advisers, Legal offices, Barristers at Law, Counsels, Solicitors, Advocates and other legal and law related services. Decision comes with most advanced and latest web technologies, enjoyable UX and the most beautiful design trends. Our template provides a platform to simply edit elements, choose styles and play around with the look and feel of your site!!">
+    <meta name="description" content="Русоптим - Одна из ведущих компаний рынка профессиональных услуг в области комплексного бизнес-консультирования. Аудиторско-консалтинговая группа включает 15 направлений, в том числе аудит, налоги, право, автоматизация, управленческое и финансовое консультирование.">
     <meta name="keywords" content="accountant, advocate, attorneys, barrister, business, consultancy, counsel, finance, justice, law, lawyer, legal adviser, legal office, solicitor">
     <!-- :: Fontawesome -->
 
@@ -16,7 +16,7 @@
     <link rel="icon" href="/dist/assets/fonts/favicon/favicon.ico">
 
     <!-- :: Title -->
-    <title>RUSOPTIM</title>
+    <title>Русоптим | Юридические и бухгалтерские услуги</title>
 
     <!-- :: Google Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap">
@@ -103,7 +103,7 @@
                         <li><span>Email :</span> rusoptim-info@yandex.ru</li>
                         <li><a href="tel:+7 (909) 410-04-10"><span>Телефон :</span> 8 (909) 410-04-10</a></li>
                     </ul>
-                    <a href="index.html#open-nav-bar-menu" class="open-nav-bar">
+                    <a href="index.php#open-nav-bar-menu" class="open-nav-bar">
                         <span class="hamburger-vector"></span>
                         <span class="hamburger-vector"></span>
                         <span class="hamburger-vector"></span>
@@ -193,44 +193,12 @@
                             <div class="box-hero">
                                 <div class="banner banner-3 text-center">
                                     <div class="headline-top"></div>
-                                    <h1 class="handline">Комплексное сопровождение малого и среднего бизнеса</h1>
+                                    <h1 class="handline"><?= isset($_GET['utm_content']) ? $_GET['utm_content'] : 'Комплексное сопровождение малого и среднего бизнеса' ?></h1>
                                     <p class="about-website">Бухгалтерия | Юриспруденция | Кадры </p>
                                     <button class="btn-1 btn-2 move-section" onclick="swa()">Получить консультацию
                                     </button>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="sec-hero display-table" style="background-image: url(/dist/assets/images/header/04_header-3.jpg)">
-            <div class="table-cell">
-                <div class="overlay"></div>
-                <div class="container">
-                    <div class="box-hero d-flex align-items-center justify-content-between">
-                        <div class="banner">
-                            <div class="headline-top"></div>
-                            <h1 class="handline">Юристы по семейным делам
-                            </h1>
-                            <p class="about-website">Решение бракоразводных вопросов под ключ</p>
-                            <button class="btn-1 btn-2 move-section" onclick="swa()">Консультация эксперта</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="sec-hero display-table" style="background-image: url(/dist/assets/images/header/03_header-3.jpg)">
-            <div class="table-cell">
-                <div class="overlay"></div>
-                <div class="container">
-                    <div class="box-hero d-flex align-items-center justify-content-between">
-                        <div class="banner">
-                            <div class="headline-top"></div>
-                            <h1 class="handline">Снижение налогов<br>
-                                до 40% ЗАКОННО
-                            </h1>
-                            <button class="btn-1 btn-2 move-section mt-3" onclick="swa()">Получить консультацию</button>
                         </div>
                     </div>
                 </div>

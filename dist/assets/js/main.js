@@ -279,7 +279,7 @@
     $('.owl-testimonial-3').owlCarousel({
         loop: true,
         nav: false,
-        dots: false,
+        dots: true,
         autoplay: true,
         autoplayTimeout: 4000,
         smartSpeed: 1000,
