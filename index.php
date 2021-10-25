@@ -182,9 +182,10 @@
 </div>
 
 <!-- :: Header -->
+<?php require($_SERVER['DOCUMENT_ROOT'].'/inc/slider.php'); ?>
 <header class="header header-2 header-3" id="page">
     <div class="header-owl header-owl-2 owl-carousel owl-theme">
-        <div class="sec-hero display-table" style="background-image: url(/dist/assets/images/header/05_header-3.jpg)">
+        <div class="sec-hero display-table" style="background-image: url(<?= isset($slider[$_GET['utm_content']]) && isset($slider[$_GET['utm_content']]['img']) ? $slider[$_GET['utm_content']]['img'] : '/dist/assets/images/header/05_header-3.jpg' ?>)">
             <div class="table-cell">
                 <div class="overlay"></div>
                 <div class="container">
@@ -193,10 +194,9 @@
                             <div class="box-hero">
                                 <div class="banner banner-3 text-center">
                                     <div class="headline-top"></div>
-                                    <h1 class="handline"><?= isset($_GET['utm_content']) ? $_GET['utm_content'] : 'Комплексное сопровождение малого и среднего бизнеса' ?></h1>
-                                    <p class="about-website">Бухгалтерия | Юриспруденция | Кадры </p>
-                                    <button class="btn-1 btn-2 move-section" onclick="swa()">Получить консультацию
-                                    </button>
+                                    <h1 class="handline"><?= isset($slider[$_GET['utm_content']]) ? $slider[$_GET['utm_content']]['title'] : 'Комплексное сопровождение малого и среднего бизнеса' ?></h1>
+                                    <p class="about-website"><?= isset($slider[$_GET['utm_content']]) && isset($slider[$_GET['utm_content']]['subtitle']) ? $slider[$_GET['utm_content']]['subtitle'] : 'Бухгалтерия | Юриспруденция | Кадры' ?></p>
+                                    <button class="btn-1 btn-2 move-section" onclick="swa()">Получить консультацию</button>
                                 </div>
                             </div>
                         </div>
