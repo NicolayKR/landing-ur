@@ -1,3 +1,4 @@
+<?php require($_SERVER['DOCUMENT_ROOT'].'/inc/data.php'); ?>
 <!DOCTYPE html>
 <!--<html lang="ru">-->
 <html lang="en">
@@ -79,7 +80,7 @@
             <div class="nav-top-box d-flex align-items-center justify-content-between">
                 <ul class="info">
                     <li><span>Email :</span> rusoptim-info@yandex.ru</li>
-                    <li><a href="tel:+7 (909) 410-04-10"><span>Телефон :</span> 8 (909) 410-04-10</a></li>
+                    <li><a href="tel:<?= $clean_phone ?>"><span>Телефон :</span> <?= $phone ?></a></li>
                 </ul>
                 <ul class="icon-follow">
                     <li><a class="icon" href="https://www.instagram.com/rusoptim_rostov/" target="_blank"><i class="fab fa-instagram"></i></a></li>
@@ -101,7 +102,7 @@
                     </a>
                     <ul class="info">
                         <li><span>Email :</span> rusoptim-info@yandex.ru</li>
-                        <li><a href="tel:+7 (909) 410-04-10"><span>Телефон :</span> 8 (909) 410-04-10</a></li>
+                        <li><a href="tel:<?= $clean_phone ?>"><span>Телефон :</span> <?= $phone ?></a></li>
                     </ul>
                     <a href="index.php#open-nav-bar-menu" class="open-nav-bar">
                         <span class="hamburger-vector"></span>
@@ -123,7 +124,7 @@
                 <div class="info-nav">
                     <i class="flaticon-call"></i>
                     <div class="contact-nav">
-                        <p><a href="tel:+7 (909) 410-04-10">8 (909) 410-04-10</a>
+                        <p><a href="tel:<?= $clean_phone ?>"><?= $phone ?></a>
                         </p>
                         <span>Наш контактный телефон</span>
                     </div>
@@ -153,7 +154,7 @@
             <div class="contact-box">
                 <i class="flaticon-call"></i>
                 <div class="box">
-                    <p><a href="tel:+7 (909) 410-04-10">8 (909) 410-04-10</a></p>
+                    <p><a href="tel:<?= $clean_phone ?>"><?= $phone ?></a></p>
                 </div>
             </div>
             <div class="contact-box">
@@ -747,7 +748,7 @@
                         </div>
                         <div class="telephone mt-2">
                             <b>Телефон</b><br>
-                            <a href="tel:+7 (909) 410-04-10">8 (909) 410-04-10</a>
+                            <a href="tel:<?= $clean_phone ?>"><?= $phone ?></a>
                         </div>
                         <div class="email mt-2">
                             <b>Email</b><br>
