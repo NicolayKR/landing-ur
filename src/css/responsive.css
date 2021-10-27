@@ -197,6 +197,11 @@
     .shop.area .text-box-details .title-product{
         margin-top: 50px;
     }
+
+    .nav-bar.active .logo .logo-nav img.two {
+        width: auto;
+        height: 60px;
+    }
     
 }
 
@@ -233,7 +238,11 @@
             -ms-transform: translateX(-50%);
                 transform: translateX(-50%);
     }
-    
+
+    .nav-bar.active .logo .logo-nav img.two {
+        width: auto;
+        height: 60px;
+    }
 }
 
 /* :: Extra small devices */
