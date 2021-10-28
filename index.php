@@ -916,10 +916,10 @@
 <script src="/dist/assets/js/main.js"></script>
 <script>
     $(document).ready(function() {
-        $("#phone").mask("+7 (999) 99-99-999");
+        $("#phone").mask("+7 (999) 999-99-99");
     });
     $(document).ready(function() {
-        $("#phone2").mask("+7 (999) 99-99-999");
+        $("#phone2").mask("+7 (999) 999-99-99");
     });
 </script>
 <!-- Yandex.Metrika counter -->
