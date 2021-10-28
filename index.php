@@ -102,7 +102,7 @@
                     </a>
                     <ul class="info">
                         <li><span>Email :</span> rusoptim-info@yandex.ru</li>
-                        <li><a href="tel:<?= $clean_phone ?>"><span>Телефон :</span> <?= $phone ?></a></li>
+                        <li><a href="tel:<?= $clean_phone ?>" style="color: #333;"><span>Телефон :</span> <?= $phone ?></a></li>
                     </ul>
                     <a href="index.php#open-nav-bar-menu" class="open-nav-bar">
                         <span class="hamburger-vector"></span>

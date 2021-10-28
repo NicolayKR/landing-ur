@@ -198,6 +198,11 @@
         margin-top: 50px;
     }
 
+    .nav-bar.active .logo .logo-nav img.two {
+        width: auto;
+        height: 60px;
+    }
+
 }
 
 /* :: Small devices */
@@ -232,6 +237,11 @@
         -webkit-transform: translateX(-50%);
             -ms-transform: translateX(-50%);
                 transform: translateX(-50%);
+    }
+
+    .nav-bar.active .logo .logo-nav img.two {
+        width: auto;
+        height: 60px;
     }
 
 }
