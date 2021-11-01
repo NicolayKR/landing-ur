@@ -1,12 +1,18 @@
 <?php
 $fio = $_POST['fio'];
 $phone = $_POST['phone'];
+$term = $_POST['term'];
+
 $fio = htmlspecialchars($fio);
 $email = htmlspecialchars($phone);
+$term = htmlspecialchars($term);
+
 $fio = urldecode($fio);
 $email = urldecode($email);
+
 $fio = trim($fio);
 $email = trim($email);
+
 $to = "rusoptim-info@yandex.ru";
 $message = '
 <html>
@@ -21,6 +27,10 @@ $message = '
  <tr>
   <td><b>Телефон</b></td>
   <td><a href="tel:'.$phone.'">'.$phone.'</a></td>
+ </tr>
+ <tr>
+  <td><b>Ключевое слово</b></td>
+  <td>'.$term.'</td>
  </tr>
 </table>
 </center>

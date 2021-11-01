@@ -846,6 +846,7 @@
         <div class="popup" id="form" style="padding: 40px 20px;">
             <button class="closed" title="Закрыть окно" onclick="swa2()"></button>
             <form class="mail-form">
+                <input type="hidden" name="term" value="<?= isset($_GET['utm_term']) ? $_GET['utm_term'] : '' ?>">
                 <div class="title">
                     <h4 class="text-center">Записаться на консультацию</h4>
                 </div>
