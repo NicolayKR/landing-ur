@@ -937,5 +937,6 @@
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/86155882" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+<script src="//cdn.callibri.ru/callibri.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>
