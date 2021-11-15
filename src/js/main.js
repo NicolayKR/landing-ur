@@ -1,13 +1,3 @@
-/*
-::
-:: Theme Name: Decision - Lawyer & Attorney HTML Template
-:: Email: Nourramadan144@gmail.com
-:: Author URI: https://themeforest.net/user/ar-coder
-:: Author: ar-coder
-:: Version: 1.0
-::
-*/
-
 (function () {
     'use strict';
 

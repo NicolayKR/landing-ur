@@ -62,27 +62,37 @@
         gtag('config', 'AW-10795934693');
     </script>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D5TLCLB32H"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-D5TLCLB32H');
+    </script>
+
 </head>
 <body>
 
-<div class="loading">
-    <div class="loading-box">
-        <div class="sk-fading-circle">
-            <div class="sk-circle1 sk-circle"></div>
-            <div class="sk-circle2 sk-circle"></div>
-            <div class="sk-circle3 sk-circle"></div>
-            <div class="sk-circle4 sk-circle"></div>
-            <div class="sk-circle5 sk-circle"></div>
-            <div class="sk-circle6 sk-circle"></div>
-            <div class="sk-circle7 sk-circle"></div>
-            <div class="sk-circle8 sk-circle"></div>
-            <div class="sk-circle9 sk-circle"></div>
-            <div class="sk-circle10 sk-circle"></div>
-            <div class="sk-circle11 sk-circle"></div>
-            <div class="sk-circle12 sk-circle"></div>
-        </div>
-    </div>
-</div>
+<!--<div class="loading">-->
+<!--    <div class="loading-box">-->
+<!--        <div class="sk-fading-circle">-->
+<!--            <div class="sk-circle1 sk-circle"></div>-->
+<!--            <div class="sk-circle2 sk-circle"></div>-->
+<!--            <div class="sk-circle3 sk-circle"></div>-->
+<!--            <div class="sk-circle4 sk-circle"></div>-->
+<!--            <div class="sk-circle5 sk-circle"></div>-->
+<!--            <div class="sk-circle6 sk-circle"></div>-->
+<!--            <div class="sk-circle7 sk-circle"></div>-->
+<!--            <div class="sk-circle8 sk-circle"></div>-->
+<!--            <div class="sk-circle9 sk-circle"></div>-->
+<!--            <div class="sk-circle10 sk-circle"></div>-->
+<!--            <div class="sk-circle11 sk-circle"></div>-->
+<!--            <div class="sk-circle12 sk-circle"></div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
 
 <!-- :: Navs -->
 <header class="navs" id="main-header">
